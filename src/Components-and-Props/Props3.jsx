@@ -4,7 +4,7 @@
 
 import React from "react";
 
-const Props3 = ({ brand, model, price, available }) => {
+const Props3 = ({ brand, model, price, available, specs }) => {
   return (
     <>
       {/* ⚙️ If "available" is true → this block runs; otherwise, nothing is displayed */}

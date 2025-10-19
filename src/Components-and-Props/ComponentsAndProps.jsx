@@ -7,14 +7,13 @@ import BasicComponents from "./BasicComponents";
 import Props from "./Props";
 import Props2 from "./Props2";
 import Props3 from "./Props3";
-
+const specs = {
+  ram: "6GB",
+  rom: "128GB",
+  processor: "A19 Bionic",
+};
 const ComponentsAndProps = () => {
   // 🧠 Example object we'll pass as props later
-  const specs = {
-    ram: "6GB",
-    rom: "128GB",
-    processor: "A19 Bionic",
-  };
 
   return (
     <>
@@ -50,12 +49,14 @@ const ComponentsAndProps = () => {
         model="iPhone 16 Pro Max"
         price={400000}
         available={true}
+        specs={specs}
       />
       <Props3
         brand="Apple"
         model="iPhone 17 Pro Max"
         price={400000}
         available={false}
+        specs={specs}
       />
     </>
   );
