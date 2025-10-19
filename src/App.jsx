@@ -5,13 +5,17 @@
 import React from "react";
 import Introduction from "../Introduction";
 import ComponentsAndProps from "./Components-and-Props/ComponentsAndProps";
+import ClickEvent from "./States/useState/ClickEvent";
+import UseStateHook from "./States/useState/UseStateHook";
 
 const App = () => {
   return (
     <>
       {/* 👇 You can comment/uncomment these lines to test different topics step by step */}
-      <Introduction />
-      <ComponentsAndProps />
+      {/* <Introduction />
+      <ComponentsAndProps /> */}
+      {/* ClickEvent */}
+      <UseStateHook />
     </>
   );
 };
