@@ -8,6 +8,7 @@ import ComponentsAndProps from "./Components-and-Props/ComponentsAndProps";
 import ClickEvent from "./States/useState/ClickEvent";
 import UseStateHook from "./States/useState/UseStateHook";
 import MapAndFilter from "./Map-and-Filter-Funcitons/MapAndFilter";
+import UseEffectHook from "./States/useEffect/UseEffectHook";
 const App = () => {
   return (
     <>
@@ -16,7 +17,8 @@ const App = () => {
       <ComponentsAndProps /> */}
       {/* ClickEvent */}
       {/* <UseStateHook /> */}
-      <MapAndFilter />
+      {/* <MapAndFilter /> */}
+      <UseEffectHook />
     </>
   );
 };
