@@ -7,7 +7,7 @@ import Introduction from "../Introduction";
 import ComponentsAndProps from "./Components-and-Props/ComponentsAndProps";
 import ClickEvent from "./States/useState/ClickEvent";
 import UseStateHook from "./States/useState/UseStateHook";
-
+import MapAndFilter from "./Map-and-Filter-Funcitons/MapAndFilter";
 const App = () => {
   return (
     <>
@@ -15,7 +15,8 @@ const App = () => {
       {/* <Introduction />
       <ComponentsAndProps /> */}
       {/* ClickEvent */}
-      <UseStateHook />
+      {/* <UseStateHook /> */}
+      <MapAndFilter />
     </>
   );
 };
