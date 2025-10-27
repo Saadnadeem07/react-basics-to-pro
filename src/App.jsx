@@ -9,6 +9,7 @@ import ClickEvent from "./States/useState/ClickEvent";
 import UseStateHook from "./States/useState/UseStateHook";
 import MapAndFilter from "./Map-and-Filter-Funcitons/MapAndFilter";
 import UseEffectHook from "./States/useEffect/UseEffectHook";
+import ApiData from "./Data-fetching-from-API/apiData";
 const App = () => {
   return (
     <>
@@ -18,7 +19,8 @@ const App = () => {
       {/* ClickEvent */}
       {/* <UseStateHook /> */}
       {/* <MapAndFilter /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
+      <ApiData />
     </>
   );
 };
