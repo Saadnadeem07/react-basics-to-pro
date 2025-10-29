@@ -1,3 +1,7 @@
+// ---------------------------------------
+// FORM HANDLING - BEGINNER LEVEL - USING STATE FOR EACH INPUT
+// ---------------------------------------
+
 // Import React and the useState hook from the React library
 import React, { useState } from "react";
 

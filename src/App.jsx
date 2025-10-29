@@ -11,6 +11,7 @@ import MapAndFilter from "./Map-and-Filter-Funcitons/MapAndFilter";
 import UseEffectHook from "./States/useEffect/UseEffectHook";
 import ApiData from "./Data-fetching-from-API/apiData";
 import FormHandling from "./Form-Handling/FormHandling";
+import FormHandling2 from "./Form-Handling/FormHandling2";
 const App = () => {
   return (
     <>
@@ -22,7 +23,8 @@ const App = () => {
       {/* <MapAndFilter /> */}
       {/* <UseEffectHook /> */}
       {/* <ApiData /> */}
-      <FormHandling />
+      {/* <FormHandling /> */}
+      <FormHandling2 />
     </>
   );
 };
