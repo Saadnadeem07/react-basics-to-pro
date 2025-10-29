@@ -15,16 +15,18 @@ import FormHandling2 from "./Form-Handling/FormHandling2";
 const App = () => {
   return (
     <>
-      {/* 👇 You can comment/uncomment these lines to test different topics step by step */}
-      {/* <Introduction />
-      <ComponentsAndProps /> */}
-      {/* ClickEvent */}
-      {/* <UseStateHook /> */}
-      {/* <MapAndFilter /> */}
-      {/* <UseEffectHook /> */}
-      {/* <ApiData /> */}
-      {/* <FormHandling /> */}
-      <FormHandling2 />
+    <div className="bg-[#10172a] p-70">
+        {/* 👇 You can comment/uncomment these lines to test different topics step by step */}
+        {/* <Introduction />
+        <ComponentsAndProps /> */}
+        {/* ClickEvent */}
+        {/* <UseStateHook /> */}
+        {/* <MapAndFilter /> */}
+        {/* <UseEffectHook /> */}
+        {/* <ApiData /> */}
+        {/* <FormHandling /> */}
+        <FormHandling2 />
+      </div>
     </>
   );
 };
