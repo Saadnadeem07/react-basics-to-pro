@@ -16,6 +16,7 @@ import GreatGrandfather from "./ContextAPI-vs-PropsDrilling/GreatGrandfather";
 import UseReducerHook from "./States/useReducer/UseReducerHook";
 import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
 import Parent from "./States/useCallback/Parent";
+import UseMemoHook from "./States/useMemo/useMemoHook";
 const App = () => {
   return (
     <>
@@ -33,7 +34,8 @@ const App = () => {
         {/* <GreatGrandfather /> */}
         {/* <UseReducerHook /> */}
         {/* <ManagingObjWithReducerHook /> */}
-        <Parent />
+        {/* <Parent /> */}
+        <UseMemoHook />
       </div>
     </>
   );
