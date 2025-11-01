@@ -15,6 +15,7 @@ import FormHandling2 from "./Form-Handling/FormHandling2";
 import GreatGrandfather from "./ContextAPI-vs-PropsDrilling/GreatGrandfather";
 import UseReducerHook from "./States/useReducer/UseReducerHook";
 import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
+import Parent from "./States/useCallback/Parent";
 const App = () => {
   return (
     <>
@@ -31,7 +32,8 @@ const App = () => {
         {/* <FormHandling2 /> */}
         {/* <GreatGrandfather /> */}
         {/* <UseReducerHook /> */}
-        <ManagingObjWithReducerHook />
+        {/* <ManagingObjWithReducerHook /> */}
+        <Parent />
       </div>
     </>
   );
