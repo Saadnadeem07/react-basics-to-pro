@@ -13,6 +13,8 @@ import ApiData from "./Data-fetching-from-API/apiData";
 import FormHandling from "./Form-Handling/FormHandling";
 import FormHandling2 from "./Form-Handling/FormHandling2";
 import GreatGrandfather from "./ContextAPI-vs-PropsDrilling/GreatGrandfather";
+import UseReducerHook from "./States/useReducer/UseReducerHook";
+import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
 const App = () => {
   return (
     <>
@@ -27,7 +29,9 @@ const App = () => {
         {/* <ApiData /> */}
         {/* <FormHandling /> */}
         {/* <FormHandling2 /> */}
-        <GreatGrandfather />
+        {/* <GreatGrandfather /> */}
+        {/* <UseReducerHook /> */}
+        <ManagingObjWithReducerHook />
       </div>
     </>
   );
