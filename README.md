@@ -1,4 +1,4 @@
-# React + Vite
+[![React](https://img.shields.io/badge/React-19.2.0-blue?logo=react)](https://react.dev)
 
 # ⚛️ React Basics
 
@@ -11,6 +11,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 # 🧠 React Learning Topics (Combined from 3 Playlists)
 
 ## 🎯 React Fundamentals
+
 - Introduction to React
 - Installation & Setup
 - React Project Structure & Flow
@@ -26,6 +27,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🎨 Styling in React
+
 - Adding CSS in Different Ways
 - Using Tailwind CSS in React
 - Production-grade React Components
@@ -33,6 +35,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🧩 React Hooks (Core)
+
 - useState
 - useEffect
 - useRef
@@ -48,6 +51,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## ⚙️ Advanced React Concepts
+
 - Context API (with Projects)
 - Redux Toolkit Crash Course
 - State Management in Large Projects
@@ -62,6 +66,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🌐 Routing & Navigation
+
 - React Router v7
 - React Router Crash Course
 - Route Setup & Navigation
@@ -70,6 +75,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🔗 API & Data Handling
+
 - Data Fetching from APIs
 - Handling APIs like a Pro (Axios, Race Conditions)
 - CORS & Debugging in React Projects
@@ -81,6 +87,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🚀 Project-Based Learning
+
 - BgChanger Project
 - Currency Converter (Custom Hook Project)
 - Authentication Project (Appwrite)
@@ -92,6 +99,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🧰 Performance & Optimization
+
 - Memoization (useMemo / useCallback)
 - useTransition for Concurrent Rendering
 - useLayoutEffect Optimization
@@ -100,6 +108,7 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## 🧪 Testing & Debugging
+
 - Debugging React Projects
 - Data Type Testing in React
 - Common Production Errors
@@ -107,12 +116,14 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 ---
 
 ## ⚡ Deployment & Environment
+
 - Deploying React App to Production (Vercel)
 - Environment Variables (ENV Setup)
 
 ---
 
 ## 🧭 Miscellaneous Topics
+
 - React Interview Questions
 - React Flow & Architecture
 - Assignments for Practice
@@ -120,15 +131,14 @@ Each concept is organized in its own folder inside `/src/components`, with code 
 - Full React Roadmap
 - React Libraries & JSX Internals
 
-
 ---
 
 ### 🚀 Purpose
 
 To build a **strong foundation in React** through hands-on coding and documentation — preparing for real-world projects and interviews.
 
-
 ### 3 playlist's are by
+
 - Web Dev Mastery
 - Chai aur Code
 - Codehelp by Love Babbar
