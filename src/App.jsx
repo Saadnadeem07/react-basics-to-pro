@@ -19,6 +19,7 @@ import UseTransitionHook from "./States/useTransition/useTransitionHook";
 import ComponentsAndProps from "./Components-and-Props/ComponentsAndProps";
 import GreatGrandfather from "./ContextAPI-vs-PropsDrilling/GreatGrandfather";
 import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
+import UseLayoutEffectHook from "./States/useLayoutEffect/UseLayoutEffectHook";
 const App = () => {
   return (
     <>
@@ -39,7 +40,8 @@ const App = () => {
         {/* <Parent /> */}
         {/* <UseMemoHook /> */}
         {/* <UseRefHook/> */}
-        <UseTransitionHook />
+        {/* <UseTransitionHook /> */}
+        <UseLayoutEffectHook />
       </div>
     </>
   );
