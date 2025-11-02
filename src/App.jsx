@@ -20,6 +20,7 @@ import ComponentsAndProps from "./Components-and-Props/ComponentsAndProps";
 import GreatGrandfather from "./ContextAPI-vs-PropsDrilling/GreatGrandfather";
 import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
 import UseLayoutEffectHook from "./States/useLayoutEffect/UseLayoutEffectHook";
+import UseIdHook from "./States/useIdHook/UseIdHook";
 const App = () => {
   return (
     <>
@@ -41,7 +42,8 @@ const App = () => {
         {/* <UseMemoHook /> */}
         {/* <UseRefHook/> */}
         {/* <UseTransitionHook /> */}
-        <UseLayoutEffectHook />
+        {/* <UseLayoutEffectHook /> */}
+        <UseIdHook />
       </div>
     </>
   );
