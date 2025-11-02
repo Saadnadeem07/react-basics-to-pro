@@ -17,6 +17,7 @@ import UseReducerHook from "./States/useReducer/UseReducerHook";
 import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
 import Parent from "./States/useCallback/Parent";
 import UseMemoHook from "./States/useMemo/useMemoHook";
+import UseRefHook from "./States/useRef/UseRefHook";
 const App = () => {
   return (
     <>
@@ -35,7 +36,8 @@ const App = () => {
         {/* <UseReducerHook /> */}
         {/* <ManagingObjWithReducerHook /> */}
         {/* <Parent /> */}
-        <UseMemoHook />
+        {/* <UseMemoHook /> */}
+        <UseRefHook/>
       </div>
     </>
   );
