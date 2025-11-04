@@ -21,6 +21,7 @@ import GreatGrandfather from "./ContextAPI-vs-PropsDrilling/GreatGrandfather";
 import ManagingObjWithReducerHook from "./States/useReducer/ManagingObjWithReducerook";
 import UseLayoutEffectHook from "./States/useLayoutEffect/UseLayoutEffectHook";
 import UseIdHook from "./States/useIdHook/UseIdHook";
+import UsingCustomHook from "./States/customHook/usingCustomHook";
 const App = () => {
   return (
     <>
@@ -43,7 +44,8 @@ const App = () => {
         {/* <UseRefHook/> */}
         {/* <UseTransitionHook /> */}
         {/* <UseLayoutEffectHook /> */}
-        <UseIdHook />
+        {/* <UseIdHook /> */}
+        <UsingCustomHook />
       </div>
     </>
   );
